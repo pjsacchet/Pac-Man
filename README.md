@@ -13,14 +13,19 @@ My initial plan was as follows:
 
   Step 1:
 		Create simple circle that moves according to input given by keyboard
+
 	Step 2:
 		Build background/wall structures that will not allow the player model to collide
+
 	Step 3:
 		Add pills to the game-board that will disappear when the player model collides with them
+
 	Step 4:
 		Implement “ghost” models that will move at random, killing the player if they collide
+
 	Step 5:
 		Incorporate sound effects that will be triggered at certain queues (player death, game start, player movement)
+
 	Step 6: (reach)
 		Add complexity to game loop, giving player three lives, presenting a game over screen, etc.
 
@@ -40,7 +45,7 @@ Although I am quite satisfied with the product I have produced, there were many 
   4. Ghost Implementation: Incorporating the ghosts was quite the challenge, as they have no real set path in the game. Instead, I gave them the ability to move randomly, incrementing the time between movements appropriately, and detecting collisions with each movement.
 
 ## Sources
-I am happy to report that all 750 lines of code are mine, but I used various resources throughout the process to properly incorporate this code. 
+I am happy to report that all 750 lines of code are mine, but I used various resources throughout the process to properly incorporate this code.
 
   1. https://stackoverflow.com/questions/27284623/three-js-for-loop-for-every-mesh-in-scene
   2. https://github.com/mrdoob/three.js/issues/9067
