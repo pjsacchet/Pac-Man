@@ -11,22 +11,22 @@ together in order to truly create the ultimate Pac-Man experience for the user.
 ### Execution Plan
 My initial plan was as follows:
 
-  Step 1:
+#### Step 1:
 		Create simple circle that moves according to input given by keyboard
 
-	Step 2:
+#### Step 2:
 		Build background/wall structures that will not allow the player model to collide
 
-	Step 3:
+#### Step 3:
 		Add pills to the game-board that will disappear when the player model collides with them
 
-	Step 4:
+#### Step 4:
 		Implement “ghost” models that will move at random, killing the player if they collide
 
-	Step 5:
+#### Step 5:
 		Incorporate sound effects that will be triggered at certain queues (player death, game start, player movement)
 
-	Step 6: (reach)
+#### Step 6: (reach)
 		Add complexity to game loop, giving player three lives, presenting a game over screen, etc.
 
 Although I felt as though I had set some pretty substantial goals for myself, I am happy to state that all original
