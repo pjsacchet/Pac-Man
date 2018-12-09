@@ -143,9 +143,6 @@ ghost4.position.y = -60;
 ghost4.width = 2.5;
 ghost4.height = 5;
 
-//Pause user interaction while song plays
-//var played = false;
-
 // create animation clock and start animation
 var clock = new THREE.Clock();
 animate();
